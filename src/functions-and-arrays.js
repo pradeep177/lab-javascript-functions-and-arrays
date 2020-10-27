@@ -138,7 +138,8 @@ const numbersAvg = [2, 6, 9, 10, 7, 4, 1, 9];
 
 function midPointOfLevels(numbersAvg){
   let arrTotal = 0;
-    if(numbersAvg.length == 0) return null;
+    if(numbersAvg.length == 0)
+     return null;
     for(i=0;i<numbersAvg.length;i++)
     {
       arrTotal = arrTotal + numbersAvg[i]
